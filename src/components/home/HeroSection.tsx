@@ -84,24 +84,13 @@ export default function HeroSection() {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-col md:flex-row gap-6 mt-4 items-center">
-                    <Link href="https://forms.gle/4N1n1bX4YcE4U8u9" target="_blank" rel="noopener noreferrer">
+                    <Link href="/events">
                         <RippleButton
                             className="bg-white text-black font-black text-lg px-12 py-4 rounded-full min-w-[200px]"
                             rippleColor="rgba(0,0,0,0.1)"
                         >
                             REGISTER NOW
                         </RippleButton>
-                    </Link>
-
-                    <Link href="/showcase">
-                        <button className="group relative px-8 py-4 rounded-full overflow-hidden bg-white/5 backdrop-blur-md border border-white/20 transition-all hover:bg-white/10 hover:border-white/40 hover:shadow-[0_0_30px_rgba(255,255,255,0.1)]">
-                            <span className="relative z-10 font-[family-name:var(--font-orbitron)] font-bold text-white tracking-wider flex items-center gap-2">
-                                EXPLORE EVENTS
-                                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                                </svg>
-                            </span>
-                        </button>
                     </Link>
                 </div>
 
